@@ -1,8 +1,20 @@
+# Manipulación de datos
 pandas
 numpy
+
+# Visualización
 matplotlib
 seaborn
+
+# Análisis automático y EDA
 ydata-profiling
+ipywidgets
+
+# Machine learning y clustering
 scikit-learn
+
+# Notebooks
 jupyter
-ydata-profiling
+
+# Utilidades adicionales
+setuptools
