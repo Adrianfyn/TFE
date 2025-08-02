@@ -3,6 +3,24 @@ import numpy as np
 from sklearn.feature_selection import VarianceThreshold
 from pathlib import Path
 
+def merge_and_save_all_clean_csvs(
+    output_dir: Path | str,
+    on: list[str] = ['Season', 'Squad'],
+    how: str = 'inner',
+    merged_filename: str = 'all_teams_all_metrics.csv'
+) -> pd.DataFrame:
+    output_path = Path(output_dir)
+    csv_files = sorted(output_path.glob('*.csv'))
+    if not csv_files:
+        raise FileNotFoundError(f"No se encontraron archivos CSV en {output_dir!r}")
+    merged_df = pd.read_csv(csv_files[0])
+    for csv_file in csv_files[1:]:
+        df = pd.read_csv(csv_file)
+        merged_df = merged_df.merge(df, on=on, how=how)
+    merged_path = output_path / merged_filename
+    merged_df.to_csv(merged_path, index=False)
+    return merged_df
+
 def clean_for_clustering(
     df: pd.DataFrame,
     zero_var_thresh: float = 0.0,
@@ -12,33 +30,24 @@ def clean_for_clustering(
     drop_name_patterns: list[str] = None,
     drop_exact: list[str] = None
 ) -> pd.DataFrame:
-    """
-    Limpia un DataFrame para clustering:
-      1) Elimina IDs/textos no numéricos.
-      2) Columnas únicas (nunique==nfilas).
-      3) Columnas con > miss_thresh % de NAs.
-      4) Categorías dominantes > dom_thresh.
-      5) Varianza ≤ zero_var_thresh.
-      6) Correlación absoluta > corr_thresh.
-      7) Patrones de nombre y borrado exacto.
-    """
+   
     df = df.copy()
     
-    # 1) IDs/texto (salvo los que queramos mantener)
+    #IDs/texto 
     drop_exact = drop_exact or []
     non_num = df.select_dtypes(include=['object','category']).columns
     to_drop = [c for c in non_num if c not in drop_exact]
     df.drop(columns=to_drop, inplace=True, errors='ignore')
 
-    # 2) Columnas únicas
+    #Columnas únicas
     uniques = [c for c in df.columns if df[c].nunique() == len(df)]
     df.drop(columns=uniques, inplace=True, errors='ignore')
 
-    # 3) Muchas NAs
+    #NAS
     to_drop = [c for c in df.columns if df[c].isna().mean() > miss_thresh]
     df.drop(columns=to_drop, inplace=True, errors='ignore')
 
-    # 4) Categorías dominantes
+    #Categorías dominantes
     cat_cols = df.select_dtypes(include=['object','category']).columns
     to_drop = [
         c for c in cat_cols
@@ -46,7 +55,7 @@ def clean_for_clustering(
     ]
     df.drop(columns=to_drop, inplace=True, errors='ignore')
 
-    # 5) Varianza casi nula
+    #Varianza casi nula
     num_cols = df.select_dtypes(include=[np.number]).columns
     if len(num_cols) > 0:
         vt = VarianceThreshold(threshold=zero_var_thresh)
@@ -54,7 +63,7 @@ def clean_for_clustering(
         low_var = list(num_cols[~vt.get_support()])
         df.drop(columns=low_var, inplace=True, errors='ignore')
 
-    # 6) Correlación perfecta
+    #Correlación perfecta
     num_cols = df.select_dtypes(include=[np.number]).columns
     if len(num_cols) > 1:
         corr = df[num_cols].corr().abs()
@@ -62,13 +71,14 @@ def clean_for_clustering(
         to_drop = [c for c in upper.columns if any(upper[c] > corr_thresh)]
         df.drop(columns=to_drop, inplace=True, errors='ignore')
 
-    # 7) Patrones de nombre y exactos
+    #Patrones de nombre y exactos
     drop_name_patterns = drop_name_patterns or []
     for pat in drop_name_patterns:
         to_drop = [c for c in df.columns if pat in c]
         df.drop(columns=to_drop, inplace=True, errors='ignore')
     df.drop(columns=drop_exact, inplace=True, errors='ignore')
-
+    df = df.loc[:, ~df.columns.str.contains('Pl', case=False)]
+    df = df.loc[:, ~df.columns.str.contains('Age', case=False)]
     return df
 
 def process_season_column(df, league_name):
