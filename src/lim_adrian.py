@@ -14,7 +14,7 @@ defensive_clean = defensive.drop(columns=[
     'Unnamed: 1_level_0 # Pl_against', 'Tackles Tkl_against', 'Challenges Att_against',
     'Unnamed: 16_level_0 Tkl+Int_against'
 ])
-defensive_clean.to_csv(BASE_DIR / "output/defensive_clean.csv", index=False)
+defensive_clean.to_csv(BASE_DIR / "/defensive_clean.csv", index=False)
 
 misc = pd.read_csv(DATA_PATH / "misc.csv")
 misc_clean = misc.drop(columns=[
