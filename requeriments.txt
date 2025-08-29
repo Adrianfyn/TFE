@@ -6,6 +6,9 @@ numpy
 matplotlib
 seaborn
 
+# Visualización interactiva
+plotly
+
 # Análisis automático y EDA
 ydata-profiling
 ipywidgets
