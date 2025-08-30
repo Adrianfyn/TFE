@@ -82,34 +82,45 @@ def clean_for_clustering(
     return df
 
 if __name__ == "__main__":
+    script_dir = Path(__file__).resolve().parent          # .../src
+    project_root = script_dir.parent.resolve()            # raíz del proyecto
 
-    script_dir = Path(__file__).resolve().parent
-    csv_path = script_dir.parent / 'Data' / 'Datos La Liga 17-25' / 'squad-shooting.csv'
-    df_original = pd.read_csv(csv_path)
-
-
-    df_clean = clean_for_clustering(
-        df_original,
-        zero_var_thresh=0.0,
-        corr_thresh=0.9999,
-        miss_thresh=0.5,
-        dom_thresh=0.95,
-        drop_name_patterns=['90'],
-        drop_exact=['Season','Squad']
-    )
-    df_clean[['Season','Squad']] = df_original[['Season','Squad']]
-    cols = ['Season', 'Squad'] + [c for c in df_clean.columns if c not in ('Season','Squad')]
-    df_clean = df_clean[cols]
-    output_dir = script_dir.parent / 'output'
+    input_dir  = (project_root / "output" / "merged_not_cleaned").resolve()
+    output_dir = (project_root / "output" / "merged_cleaned").resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
-    clean_filename = f"{csv_path.stem}_clean.csv"
-    df_clean.to_csv(output_dir / clean_filename, index=False)
 
-    
-    print(f"✅ Dataset limpio guardado en: {output_dir / clean_filename}")
+    print(f"[INFO] Leyendo de: {input_dir}")
+    print(f"[INFO] Guardando en: {output_dir}")
 
-    output_directory = Path(__file__).resolve().parent.parent / 'output' / 'total'
-    df_all = merge_and_save_all_clean_csvs(output_directory)
-    df_all.shape
-    df_all.head(10)
-    print("Shape del DataFrame fusionado:", df_all.shape)
+    csvs = sorted(input_dir.glob("*.csv"))
+    if not csvs:
+        raise FileNotFoundError(f"No hay CSV en {input_dir}")
+
+    for csv_file in csvs:
+        print(f"[LOAD] {csv_file.resolve()}")
+        df_original = pd.read_csv(csv_file)
+
+        df_clean = clean_for_clustering(
+            df_original,
+            zero_var_thresh=0.0,
+            corr_thresh=0.9999,
+            miss_thresh=0.5,
+            dom_thresh=0.95,
+            drop_name_patterns=['90'],
+            drop_exact=['Season','Squad']
+        )
+
+        # Reponer Season y Squad al frente
+        for k in ['Season','Squad']:
+            if k in df_original.columns:
+                df_clean[k] = df_original[k]
+        cols = [c for c in ['Season','Squad'] if c in df_clean.columns] + \
+               [c for c in df_clean.columns if c not in ('Season','Squad')]
+        df_clean = df_clean[cols]
+
+        # Guardar SIEMPRE en output/merged_cleaned con sufijo _clean
+        clean_filename = csv_file.stem + "_clean.csv"
+        out_path = (output_dir / clean_filename).resolve()
+        df_clean.to_csv(out_path, index=False)
+        print(f"✅ Dataset limpio guardado en: {out_path}")
+
