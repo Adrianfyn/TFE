@@ -10,7 +10,8 @@ DATA_PATH = BASE_DIR / "Output/Correlation"
 DATA_PATH.mkdir(parents=True, exist_ok=True)
 DATA_PATH1 = BASE_DIR / "Output"
 # ------------------- CARGA DE DATOS -------------------
-df = pd.read_csv(DATA_PATH1 / "all_teams_all_metrics.csv")
+df = pd.read_csv(DATA_PATH1 / "Final/all_teams_with_season_liga_clean.csv")
+df = df[[col for col in df.columns if "%" not in col]] # Eliminar columnas con '%'
 df_numeric = df.select_dtypes(include=[np.number])
 
 # ------------------- MATRIZ DE CORRELACIÓN -------------------
@@ -35,7 +36,12 @@ def eliminar_variables_correlacionadas(df, threshold=0.95):
     return df.drop(columns=to_drop), list(to_drop)
 
 df_filtrado, eliminadas = eliminar_variables_correlacionadas(df_numeric)
-
+df_filtrado_numeric = df_filtrado.copy()
+# Añadir columnas no numéricas de identificación
+df_filtrado = df_filtrado.reset_index(drop=True)
+df_filtrado["Squad"] = df["Squad"]
+df_filtrado["season"] = df["season"]
+df_filtrado["liga"] = df["liga"]
 # Guardar el nuevo dataset filtrado
 filtered_csv_path = DATA_PATH / "filtered_features.csv"
 df_filtrado.to_csv(filtered_csv_path, index=False)
@@ -44,7 +50,7 @@ print(f"Dataset filtrado guardado en: {filtered_csv_path}")
 print("Forma del dataset filtrado:", df_filtrado.shape)
 print("Forma del dataset original:", df_numeric.shape)
 # ------------------- MAPA DE CALOR DEL FILTRADO -------------------
-filtered_corr = df_filtrado.corr()
+filtered_corr = df_filtrado_numeric.corr()
 mask = np.triu(np.ones_like(filtered_corr, dtype=bool))
 
 plt.figure(figsize=(12, 10))
