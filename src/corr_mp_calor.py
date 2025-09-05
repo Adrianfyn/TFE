@@ -19,7 +19,7 @@ corr_matrix = df_numeric.corr()
 corr_matrix.to_csv(DATA_PATH / "correlation_matrix.csv")
 
 # ------------------- ELIMINAR VARIABLES ALTAMENTE CORRELACIONADAS -------------------
-def eliminar_variables_correlacionadas(df, threshold=0.95):
+def eliminar_variables_correlacionadas(df, threshold=0.9):
     corr_matrix = df.corr().abs()
     upper = corr_matrix.where(np.triu(np.ones(corr_matrix.shape), k=1).astype(bool))
 

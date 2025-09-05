@@ -1,0 +1,61 @@
+Liga_origen,Tipo,Variable,Importancia
+Femenino,Por 90 min,Unnamed: 22_level_0 1/3_for,0.05519546776216205
+Femenino,Por 90 min,Unnamed: 22_level_0 1/3_against,0.054543818193343425
+Femenino,Por 90 min,Unnamed: 17_level_0 Clr_for,0.04904860072281723
+Femenino,Por 90 min,Blocks Sh_against,0.04899490567442976
+Femenino,Por 90 min,Unnamed: 3_level_0 Att_for,0.04796478132158352
+Femenino,Por 90 min,Pass Types Live_against,0.04477468015635967
+Femenino,Normalizado,Pass Types TI_against,0.052263512074740705
+Femenino,Normalizado,Touches Def Pen_against,0.04631954960812056
+Femenino,Normalizado,Pass Types CK_against,0.03988002649407606
+Femenino,Normalizado,SCA SCA_against,0.0397928437771516
+Femenino,Normalizado,Carries CPA_against,0.038855420674856866
+Femenino,Normalizado,Unnamed: 17_level_0 Clr_for,0.0365498225636207
+Bundesliga,Por 90 min,Unnamed: 3_level_0 Att_for,0.05922942663382893
+Bundesliga,Por 90 min,Pass Types TI_against,0.0532943522363843
+Bundesliga,Por 90 min,Pass Types TB_for,0.024783745739306744
+Bundesliga,Por 90 min,Unnamed: 22_level_0 1/3_against,0.024775444536268558
+Bundesliga,Por 90 min,Pass Types Live_against,0.022619736072889893
+Bundesliga,Por 90 min,Long Cmp_against,0.021774404222357848
+Bundesliga,Normalizado,SCA SCA_for,0.04680285925240216
+Bundesliga,Normalizado,Carries CPA_for,0.045333963848503585
+Bundesliga,Normalizado,Take-Ons Att_for,0.04082565382204708
+Bundesliga,Normalizado,GCA Types TO_for,0.037474619470897974
+Bundesliga,Normalizado,SCA Types Sh_for,0.03712846966347335
+Bundesliga,Normalizado,Tackles Def 3rd_against,0.03686144293608009
+Ligue 1,Por 90 min,Unnamed: 3_level_0 Att_for,0.05792467653967337
+Ligue 1,Por 90 min,Unnamed: 22_level_0 1/3_against,0.05716980379784895
+Ligue 1,Por 90 min,Unnamed: 22_level_0 1/3_for,0.04083733715539196
+Ligue 1,Por 90 min,Pass Types Live_against,0.03686617125403312
+Ligue 1,Por 90 min,Unnamed: 17_level_0 Clr_for,0.030716168759455518
+Ligue 1,Por 90 min,Pass Types CK_against,0.030000742797880828
+Ligue 1,Normalizado,Unnamed: 24_level_0 CrsPA_against,0.07133333333333333
+Ligue 1,Normalizado,Unnamed: 23_level_0 PPA_against,0.06510281385281386
+Ligue 1,Normalizado,Touches Def Pen_against,0.056666666666666664
+Ligue 1,Normalizado,Pass Types CK_for,0.054
+Ligue 1,Normalizado,Corner Kicks Out_against,0.051333333333333335
+Ligue 1,Normalizado,Performance Crs_against,0.04391125541125541
+Serie A,Por 90 min,Unnamed: 3_level_0 Att_for,0.037552316408143445
+Serie A,Por 90 min,Touches Def Pen_for,0.031112313476810146
+Serie A,Por 90 min,Blocks Sh_for,0.028730781739021004
+Serie A,Por 90 min,Unnamed: 22_level_0 1/3_for,0.026776073755748815
+Serie A,Por 90 min,Unnamed: 23_level_0 PPA_against,0.024557403487376304
+Serie A,Por 90 min,Unnamed: 17_level_0 Clr_for,0.022470718311123888
+Serie A,Normalizado,Team Success PPM_for,0.05847610565759426
+Serie A,Normalizado,Unnamed: 23_level_0 PPA_against,0.0514098767491212
+Serie A,Normalizado,SCA SCA_against,0.05036577310432746
+Serie A,Normalizado,SCA SCA_for,0.046720322192858904
+Serie A,Normalizado,Unnamed: 22_level_0 1/3_for,0.0450707823928342
+Serie A,Normalizado,GCA GCA_for,0.043274898456612705
+Premier League,Por 90 min,Unnamed: 3_level_0 Att_for,0.06938595033357824
+Premier League,Por 90 min,Pass Types Live_against,0.05809897469060109
+Premier League,Por 90 min,Unnamed: 17_level_0 Clr_for,0.04761691683560046
+Premier League,Por 90 min,Unnamed: 22_level_0 1/3_for,0.03932722986764782
+Premier League,Por 90 min,Long Cmp_against,0.03527854400327514
+Premier League,Por 90 min,Unnamed: 22_level_0 1/3_against,0.031548339008432714
+Premier League,Normalizado,Unnamed: 17_level_0 Clr_for,0.07012495111067676
+Premier League,Normalizado,Unnamed: 3_level_0 Att_for,0.03882934317928634
+Premier League,Normalizado,Pass Types CK_for,0.03808026840569776
+Premier League,Normalizado,Performance Crs_against,0.03509027050378823
+Premier League,Normalizado,Pass Types TI_against,0.02912503965522222
+Premier League,Normalizado,Aerial Duels Lost_for,0.02903815719258099

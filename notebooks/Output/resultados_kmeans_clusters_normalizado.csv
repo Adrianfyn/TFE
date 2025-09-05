@@ -1,0 +1,253 @@
+Squad,season,liga,Cluster_Normalizado_Femenino,Cluster_Normalizado_La_Liga,Cluster_Normalizado_Bundesliga,Cluster_Normalizado_Ligue_1,Cluster_Normalizado_Serie_A,Cluster_Normalizado_Premier_League,Cluster_Normalizado_Global
+Arsenal,2024-2025,Premier League,,,,,,1.0,3.0
+Aston Villa,2024-2025,Premier League,,,,,,1.0,3.0
+Bournemouth,2024-2025,Premier League,,,,,,2.0,1.0
+Brentford,2024-2025,Premier League,,,,,,2.0,1.0
+Brighton,2024-2025,Premier League,,,,,,1.0,3.0
+Chelsea,2024-2025,Premier League,,,,,,1.0,3.0
+Crystal Palace,2024-2025,Premier League,,,,,,2.0,1.0
+Everton,2024-2025,Premier League,,,,,,2.0,1.0
+Fulham,2024-2025,Premier League,,,,,,1.0,1.0
+Ipswich Town,2024-2025,Premier League,,,,,,3.0,1.0
+Leicester City,2024-2025,Premier League,,,,,,3.0,1.0
+Liverpool,2024-2025,Premier League,,,,,,1.0,3.0
+Manchester City,2024-2025,Premier League,,,,,,1.0,3.0
+Manchester Utd,2024-2025,Premier League,,,,,,1.0,1.0
+Newcastle Utd,2024-2025,Premier League,,,,,,1.0,3.0
+Nott'ham Forest,2024-2025,Premier League,,,,,,2.0,1.0
+Southampton,2024-2025,Premier League,,,,,,3.0,1.0
+Tottenham,2024-2025,Premier League,,,,,,1.0,1.0
+West Ham,2024-2025,Premier League,,,,,,3.0,1.0
+Wolves,2024-2025,Premier League,,,,,,3.0,1.0
+Atalanta,2024-2025,Serie A,,,,,3.0,,3.0
+Bologna,2024-2025,Serie A,,,,,3.0,,3.0
+Cagliari,2024-2025,Serie A,,,,,2.0,,1.0
+Como,2024-2025,Serie A,,,,,1.0,,3.0
+Empoli,2024-2025,Serie A,,,,,2.0,,1.0
+Fiorentina,2024-2025,Serie A,,,,,3.0,,3.0
+Genoa,2024-2025,Serie A,,,,,2.0,,1.0
+Hellas Verona,2024-2025,Serie A,,,,,2.0,,1.0
+Inter,2024-2025,Serie A,,,,,3.0,,3.0
+Juventus,2024-2025,Serie A,,,,,3.0,,3.0
+Lazio,2024-2025,Serie A,,,,,3.0,,3.0
+Lecce,2024-2025,Serie A,,,,,2.0,,1.0
+Milan,2024-2025,Serie A,,,,,3.0,,3.0
+Monza,2024-2025,Serie A,,,,,2.0,,1.0
+Napoli,2024-2025,Serie A,,,,,3.0,,3.0
+Parma,2024-2025,Serie A,,,,,2.0,,1.0
+Roma,2024-2025,Serie A,,,,,3.0,,3.0
+Torino,2024-2025,Serie A,,,,,2.0,,1.0
+Udinese,2024-2025,Serie A,,,,,2.0,,1.0
+Venezia,2024-2025,Serie A,,,,,2.0,,1.0
+Angers,2024-2025,Ligue 1,,,,2.0,,,1.0
+Auxerre,2024-2025,Ligue 1,,,,2.0,,,1.0
+Brest,2024-2025,Ligue 1,,,,2.0,,,1.0
+Le Havre,2024-2025,Ligue 1,,,,2.0,,,1.0
+Lens,2024-2025,Ligue 1,,,,1.0,,,3.0
+Lille,2024-2025,Ligue 1,,,,1.0,,,3.0
+Lyon,2024-2025,Ligue 1,,,,1.0,,,3.0
+Marseille,2024-2025,Ligue 1,,,,1.0,,,3.0
+Monaco,2024-2025,Ligue 1,,,,1.0,,,3.0
+Montpellier,2024-2025,Ligue 1,,,,2.0,,,1.0
+Nantes,2024-2025,Ligue 1,,,,2.0,,,1.0
+Nice,2024-2025,Ligue 1,,,,1.0,,,3.0
+Paris S-G,2024-2025,Ligue 1,,,,1.0,,,3.0
+Reims,2024-2025,Ligue 1,,,,2.0,,,1.0
+Rennes,2024-2025,Ligue 1,,,,1.0,,,3.0
+Saint-Étienne,2024-2025,Ligue 1,,,,2.0,,,1.0
+Strasbourg,2024-2025,Ligue 1,,,,2.0,,,1.0
+Toulouse,2024-2025,Ligue 1,,,,1.0,,,3.0
+Augsburg,2024-2025,Bundesliga,,,2.0,,,,1.0
+Bayern Munich,2024-2025,Bundesliga,,,1.0,,,,3.0
+Bochum,2024-2025,Bundesliga,,,2.0,,,,1.0
+Dortmund,2024-2025,Bundesliga,,,3.0,,,,3.0
+Eint Frankfurt,2024-2025,Bundesliga,,,3.0,,,,1.0
+Freiburg,2024-2025,Bundesliga,,,2.0,,,,1.0
+Gladbach,2024-2025,Bundesliga,,,2.0,,,,1.0
+Heidenheim,2024-2025,Bundesliga,,,2.0,,,,1.0
+Hoffenheim,2024-2025,Bundesliga,,,2.0,,,,1.0
+Holstein Kiel,2024-2025,Bundesliga,,,2.0,,,,1.0
+Leverkusen,2024-2025,Bundesliga,,,3.0,,,,3.0
+Mainz 05,2024-2025,Bundesliga,,,2.0,,,,1.0
+RB Leipzig,2024-2025,Bundesliga,,,2.0,,,,1.0
+St. Pauli,2024-2025,Bundesliga,,,2.0,,,,1.0
+Stuttgart,2024-2025,Bundesliga,,,3.0,,,,3.0
+Union Berlin,2024-2025,Bundesliga,,,2.0,,,,1.0
+Werder Bremen,2024-2025,Bundesliga,,,2.0,,,,1.0
+Wolfsburg,2024-2025,Bundesliga,,,2.0,,,,1.0
+Alavés,2024-2025,La Liga,,2.0,,,,,2.0
+Athletic Club,2024-2025,La Liga,,1.0,,,,,3.0
+Atlético Madrid,2024-2025,La Liga,,1.0,,,,,3.0
+Barcelona,2024-2025,La Liga,,1.0,,,,,3.0
+Betis,2024-2025,La Liga,,1.0,,,,,3.0
+Celta Vigo,2024-2025,La Liga,,1.0,,,,,3.0
+Espanyol,2024-2025,La Liga,,3.0,,,,,1.0
+Getafe,2024-2025,La Liga,,2.0,,,,,2.0
+Girona,2024-2025,La Liga,,3.0,,,,,3.0
+Las Palmas,2024-2025,La Liga,,3.0,,,,,1.0
+Leganés,2024-2025,La Liga,,3.0,,,,,1.0
+Mallorca,2024-2025,La Liga,,3.0,,,,,1.0
+Osasuna,2024-2025,La Liga,,3.0,,,,,2.0
+Rayo Vallecano,2024-2025,La Liga,,3.0,,,,,1.0
+Real Madrid,2024-2025,La Liga,,1.0,,,,,3.0
+Real Sociedad,2024-2025,La Liga,,3.0,,,,,2.0
+Sevilla,2024-2025,La Liga,,3.0,,,,,1.0
+Valencia,2024-2025,La Liga,,3.0,,,,,1.0
+Valladolid,2024-2025,La Liga,,3.0,,,,,1.0
+Villarreal,2024-2025,La Liga,,3.0,,,,,1.0
+Alavés,2023-2024,La Liga,,2.0,,,,,2.0
+Almería,2023-2024,La Liga,,3.0,,,,,1.0
+Athletic Club,2023-2024,La Liga,,1.0,,,,,3.0
+Atlético Madrid,2023-2024,La Liga,,1.0,,,,,3.0
+Barcelona,2023-2024,La Liga,,1.0,,,,,3.0
+Betis,2023-2024,La Liga,,3.0,,,,,1.0
+Cádiz,2023-2024,La Liga,,3.0,,,,,2.0
+Celta Vigo,2023-2024,La Liga,,3.0,,,,,1.0
+Getafe,2023-2024,La Liga,,2.0,,,,,2.0
+Girona,2023-2024,La Liga,,1.0,,,,,3.0
+Granada,2023-2024,La Liga,,3.0,,,,,1.0
+Las Palmas,2023-2024,La Liga,,3.0,,,,,1.0
+Mallorca,2023-2024,La Liga,,2.0,,,,,2.0
+Osasuna,2023-2024,La Liga,,2.0,,,,,2.0
+Rayo Vallecano,2023-2024,La Liga,,2.0,,,,,2.0
+Real Madrid,2023-2024,La Liga,,1.0,,,,,3.0
+Real Sociedad,2023-2024,La Liga,,1.0,,,,,3.0
+Sevilla,2023-2024,La Liga,,3.0,,,,,2.0
+Valencia,2023-2024,La Liga,,3.0,,,,,2.0
+Villarreal,2023-2024,La Liga,,3.0,,,,,1.0
+Almería,2022-2023,La Liga,,3.0,,,,,1.0
+Athletic Club,2022-2023,La Liga,,1.0,,,,,3.0
+Atlético Madrid,2022-2023,La Liga,,1.0,,,,,3.0
+Barcelona,2022-2023,La Liga,,1.0,,,,,3.0
+Betis,2022-2023,La Liga,,3.0,,,,,2.0
+Cádiz,2022-2023,La Liga,,3.0,,,,,2.0
+Celta Vigo,2022-2023,La Liga,,2.0,,,,,2.0
+Elche,2022-2023,La Liga,,3.0,,,,,2.0
+Espanyol,2022-2023,La Liga,,3.0,,,,,2.0
+Getafe,2022-2023,La Liga,,2.0,,,,,2.0
+Girona,2022-2023,La Liga,,3.0,,,,,2.0
+Mallorca,2022-2023,La Liga,,3.0,,,,,2.0
+Osasuna,2022-2023,La Liga,,2.0,,,,,2.0
+Rayo Vallecano,2022-2023,La Liga,,2.0,,,,,2.0
+Real Madrid,2022-2023,La Liga,,1.0,,,,,3.0
+Real Sociedad,2022-2023,La Liga,,1.0,,,,,3.0
+Sevilla,2022-2023,La Liga,,3.0,,,,,2.0
+Valencia,2022-2023,La Liga,,2.0,,,,,2.0
+Valladolid,2022-2023,La Liga,,3.0,,,,,2.0
+Villarreal,2022-2023,La Liga,,1.0,,,,,3.0
+Alavés,2021-2022,La Liga,,2.0,,,,,2.0
+Athletic Club,2021-2022,La Liga,,2.0,,,,,2.0
+Atlético Madrid,2021-2022,La Liga,,1.0,,,,,2.0
+Barcelona,2021-2022,La Liga,,1.0,,,,,3.0
+Betis,2021-2022,La Liga,,1.0,,,,,2.0
+Cádiz,2021-2022,La Liga,,2.0,,,,,2.0
+Celta Vigo,2021-2022,La Liga,,2.0,,,,,2.0
+Elche,2021-2022,La Liga,,3.0,,,,,2.0
+Espanyol,2021-2022,La Liga,,3.0,,,,,2.0
+Getafe,2021-2022,La Liga,,2.0,,,,,2.0
+Granada,2021-2022,La Liga,,3.0,,,,,2.0
+Levante,2021-2022,La Liga,,3.0,,,,,2.0
+Mallorca,2021-2022,La Liga,,3.0,,,,,2.0
+Osasuna,2021-2022,La Liga,,2.0,,,,,2.0
+Rayo Vallecano,2021-2022,La Liga,,2.0,,,,,2.0
+Real Madrid,2021-2022,La Liga,,1.0,,,,,3.0
+Real Sociedad,2021-2022,La Liga,,1.0,,,,,2.0
+Sevilla,2021-2022,La Liga,,1.0,,,,,2.0
+Valencia,2021-2022,La Liga,,2.0,,,,,2.0
+Villarreal,2021-2022,La Liga,,1.0,,,,,3.0
+Alavés,2020-2021,La Liga,,2.0,,,,,2.0
+Athletic Club,2020-2021,La Liga,,2.0,,,,,2.0
+Atlético Madrid,2020-2021,La Liga,,1.0,,,,,3.0
+Barcelona,2020-2021,La Liga,,1.0,,,,,3.0
+Betis,2020-2021,La Liga,,2.0,,,,,2.0
+Cádiz,2020-2021,La Liga,,3.0,,,,,2.0
+Celta Vigo,2020-2021,La Liga,,2.0,,,,,2.0
+Eibar,2020-2021,La Liga,,2.0,,,,,2.0
+Elche,2020-2021,La Liga,,3.0,,,,,2.0
+Getafe,2020-2021,La Liga,,2.0,,,,,2.0
+Granada,2020-2021,La Liga,,3.0,,,,,2.0
+Huesca,2020-2021,La Liga,,2.0,,,,,2.0
+Levante,2020-2021,La Liga,,3.0,,,,,2.0
+Osasuna,2020-2021,La Liga,,2.0,,,,,2.0
+Real Madrid,2020-2021,La Liga,,1.0,,,,,3.0
+Real Sociedad,2020-2021,La Liga,,1.0,,,,,3.0
+Sevilla,2020-2021,La Liga,,1.0,,,,,2.0
+Valencia,2020-2021,La Liga,,3.0,,,,,2.0
+Valladolid,2020-2021,La Liga,,2.0,,,,,2.0
+Villarreal,2020-2021,La Liga,,1.0,,,,,3.0
+Alavés,2019-2020,La Liga,,2.0,,,,,2.0
+Athletic Club,2019-2020,La Liga,,2.0,,,,,2.0
+Atlético Madrid,2019-2020,La Liga,,2.0,,,,,2.0
+Barcelona,2019-2020,La Liga,,1.0,,,,,3.0
+Betis,2019-2020,La Liga,,3.0,,,,,2.0
+Celta Vigo,2019-2020,La Liga,,3.0,,,,,2.0
+Eibar,2019-2020,La Liga,,2.0,,,,,2.0
+Espanyol,2019-2020,La Liga,,2.0,,,,,2.0
+Getafe,2019-2020,La Liga,,2.0,,,,,2.0
+Granada,2019-2020,La Liga,,2.0,,,,,2.0
+Leganés,2019-2020,La Liga,,2.0,,,,,2.0
+Levante,2019-2020,La Liga,,3.0,,,,,2.0
+Mallorca,2019-2020,La Liga,,3.0,,,,,2.0
+Osasuna,2019-2020,La Liga,,2.0,,,,,2.0
+Real Madrid,2019-2020,La Liga,,1.0,,,,,3.0
+Real Sociedad,2019-2020,La Liga,,2.0,,,,,2.0
+Sevilla,2019-2020,La Liga,,1.0,,,,,2.0
+Valencia,2019-2020,La Liga,,3.0,,,,,2.0
+Valladolid,2019-2020,La Liga,,3.0,,,,,2.0
+Villarreal,2019-2020,La Liga,,3.0,,,,,2.0
+Alavés,2018-2019,La Liga,,2.0,,,,,2.0
+Athletic Club,2018-2019,La Liga,,2.0,,,,,2.0
+Atlético Madrid,2018-2019,La Liga,,4.0,,,,,2.0
+Barcelona,2018-2019,La Liga,,1.0,,,,,3.0
+Betis,2018-2019,La Liga,,4.0,,,,,2.0
+Celta Vigo,2018-2019,La Liga,,4.0,,,,,2.0
+Eibar,2018-2019,La Liga,,2.0,,,,,2.0
+Espanyol,2018-2019,La Liga,,4.0,,,,,2.0
+Getafe,2018-2019,La Liga,,2.0,,,,,2.0
+Girona,2018-2019,La Liga,,4.0,,,,,2.0
+Huesca,2018-2019,La Liga,,4.0,,,,,2.0
+Leganés,2018-2019,La Liga,,2.0,,,,,2.0
+Levante,2018-2019,La Liga,,4.0,,,,,2.0
+Rayo Vallecano,2018-2019,La Liga,,4.0,,,,,2.0
+Real Madrid,2018-2019,La Liga,,1.0,,,,,3.0
+Real Sociedad,2018-2019,La Liga,,4.0,,,,,2.0
+Sevilla,2018-2019,La Liga,,4.0,,,,,2.0
+Valencia,2018-2019,La Liga,,4.0,,,,,2.0
+Valladolid,2018-2019,La Liga,,4.0,,,,,2.0
+Villarreal,2018-2019,La Liga,,4.0,,,,,2.0
+Alavés,2017-2018,La Liga,,4.0,,,,,2.0
+Athletic Club,2017-2018,La Liga,,4.0,,,,,2.0
+Atlético Madrid,2017-2018,La Liga,,4.0,,,,,2.0
+Barcelona,2017-2018,La Liga,,1.0,,,,,3.0
+Betis,2017-2018,La Liga,,4.0,,,,,2.0
+Celta Vigo,2017-2018,La Liga,,4.0,,,,,2.0
+Eibar,2017-2018,La Liga,,2.0,,,,,2.0
+Espanyol,2017-2018,La Liga,,4.0,,,,,2.0
+Getafe,2017-2018,La Liga,,4.0,,,,,2.0
+Girona,2017-2018,La Liga,,4.0,,,,,2.0
+La Coruña,2017-2018,La Liga,,4.0,,,,,2.0
+Las Palmas,2017-2018,La Liga,,4.0,,,,,2.0
+Leganés,2017-2018,La Liga,,4.0,,,,,2.0
+Levante,2017-2018,La Liga,,4.0,,,,,2.0
+Málaga,2017-2018,La Liga,,4.0,,,,,2.0
+Real Madrid,2017-2018,La Liga,,1.0,,,,,3.0
+Real Sociedad,2017-2018,La Liga,,1.0,,,,,2.0
+Sevilla,2017-2018,La Liga,,4.0,,,,,2.0
+Valencia,2017-2018,La Liga,,4.0,,,,,2.0
+Villarreal,2017-2018,La Liga,,4.0,,,,,2.0
+Athletic Club,2024-2025,Femenino,3.0,,,,,,3.0
+Atlético Madrid,2024-2025,Femenino,3.0,,,,,,3.0
+Barcelona,2024-2025,Femenino,2.0,,,,,,3.0
+Dep La Coruña,2024-2025,Femenino,1.0,,,,,,1.0
+Eibar,2024-2025,Femenino,1.0,,,,,,1.0
+Espanyol,2024-2025,Femenino,1.0,,,,,,1.0
+Granada,2024-2025,Femenino,3.0,,,,,,3.0
+Levante,2024-2025,Femenino,1.0,,,,,,1.0
+Levante Planas,2024-2025,Femenino,3.0,,,,,,3.0
+Madrid CFF,2024-2025,Femenino,1.0,,,,,,1.0
+Real Betis,2024-2025,Femenino,1.0,,,,,,1.0
+Real Madrid,2024-2025,Femenino,4.0,,,,,,3.0
+Real Sociedad,2024-2025,Femenino,3.0,,,,,,3.0
+Sevilla,2024-2025,Femenino,1.0,,,,,,1.0
+UDG Tenerife,2024-2025,Femenino,1.0,,,,,,1.0
+Valencia,2024-2025,Femenino,1.0,,,,,,1.0
